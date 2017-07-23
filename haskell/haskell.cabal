@@ -15,13 +15,13 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules: , Church
-                   , Church.Numeral
-                   , Church.Bool
-                   , Church.Pair
-                   , Church.List
-                   , Church.Maybe
-
+  exposed-modules:  Church
+                  , Church.Numeral
+                  , Church.Bool
+                  , Church.Maybe
+                  , Church.List                                    
+                  , Church.Product
+                  , Church.CoProduct
                    
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
