@@ -35,3 +35,4 @@ not (Bool t) = Bool (flip t)
 --   b fails
 xor :: Bool -> Bool -> Bool
 xor (Bool a) b = Bool (a (truth $ not b) $ truth b)
+

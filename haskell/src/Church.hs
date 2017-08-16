@@ -5,4 +5,5 @@ import Prelude ()
 import Church.Numeral
 import Church.Bool
 import Church.List
-import Church.Pair
+import Church.Product
+import Church.SKI

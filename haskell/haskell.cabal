@@ -21,7 +21,7 @@ library
                   , Church.Maybe
                   , Church.List                                    
                   , Church.Product
-                  , Church.CoProduct
+                  , Church.SKI
                    
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
